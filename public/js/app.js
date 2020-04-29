@@ -2938,6 +2938,8 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -68594,6 +68596,10 @@ var render = function() {
             "div",
             { staticClass: "login_footer" },
             [
+              _c("p", [_vm._v("Email: admin@gmail.com")]),
+              _vm._v(" "),
+              _c("p", [_vm._v("Password: mdsadek1")]),
+              _vm._v(" "),
               _c(
                 "Button",
                 {
@@ -86001,7 +86007,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-router */ "./node_modules/vue-router/dist/vue-router.esm.js");
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_pages_home__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/pages/home */ "./resources/js/components/pages/home.vue");
+/* harmony import */ var _components_pages_home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/pages/home */ "./resources/js/components/pages/home.vue");
 /* harmony import */ var _admin_pages_category__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./admin/pages/category */ "./resources/js/admin/pages/category.vue");
 /* harmony import */ var _admin_pages_adminusers__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./admin/pages/adminusers */ "./resources/js/admin/pages/adminusers.vue");
 /* harmony import */ var _admin_pages_login__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./admin/pages/login */ "./resources/js/admin/pages/login.vue");
@@ -86016,7 +86022,7 @@ vue__WEBPACK_IMPORTED_MODULE_1___default.a.use(vue_router__WEBPACK_IMPORTED_MODU
 var routes = [//projects routes....
 {
   path: '/',
-  component: _components_pages_home__WEBPACK_IMPORTED_MODULE_6__["default"],
+  component: _components_pages_home__WEBPACK_IMPORTED_MODULE_2__["default"],
   name: 'home'
 }, {
   path: '/category',

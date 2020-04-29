@@ -12,6 +12,8 @@
                         <Input type="password" v-model="data.password"  placeholder="******"  />
                     </div>
                     <div class="login_footer">
+                        <p>Email: admin@gmail.com</p>
+                        <p>Password: mdsadek1</p>
                         <Button type="primary" @click="login" :disabled="isLogging" :loading="isLogging">{{isLogging ? 'Loging...' : 'Login'}}</Button>
                     </div>
             </div>
